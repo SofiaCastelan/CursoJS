@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poetsen+One&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: "Poetsen One", sans-serif;   
+    align-items: center;
+    align-content: center;
+    background: #355C7D;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #C06C84, #6C5B7B, #355C7D);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #C06C84, #6C5B7B, #355C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+h1{
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+
+.cont{
+    background-color: #C06C84;
+    margin-left: 25%;
+    margin-top: 30%;
+    border-style: inset;
+    border-color: #000000;
+    width: 500px;
+    max-height: 1200px;
+   
+}
+
+.in{
+    margin-left: 50px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-right: 25px;
+    width: 300px;
+    height: 30px;
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-optical-sizing: auto;
+    border-radius: 50px;
+    background-color: rgb(189, 186, 186);
+    color: #000000;
+}
+
+.in:hover{
+    border-radius: 12px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+button{
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+}
+
+li{
+    align-items: center;
+    text-align: center;
+    list-style: none;
+    background-color: #C06C84;
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-optical-sizing: auto;
+}
+
